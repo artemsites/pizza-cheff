@@ -1,0 +1,15 @@
+.header {
+  height: 100px;
+  
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
