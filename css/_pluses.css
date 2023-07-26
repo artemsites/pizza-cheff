@@ -1,5 +1,4 @@
 .pluses {
-  max-width: 39.4rem;
 
   display: flex;
   justify-content: space-between;
@@ -11,6 +10,7 @@
   align-items: center;
 
   margin-bottom: 2.3rem;
+  margin-right: 1rem;
 }
 
 .pluses__item-img {
@@ -23,6 +23,11 @@
   max-width: 13.5rem;
 
   margin-left: 1rem;
+}
+@media screen and (max-width: 1150px) {
+  .pluses__item-box {
+    max-width: 20rem;
+  }
 }
 
 .pluses__item-title {

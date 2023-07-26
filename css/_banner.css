@@ -1,8 +1,14 @@
 .banner {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 
   margin-top: 8.75rem;
+}
+
+.banner__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .banner__title {
@@ -18,11 +24,15 @@
 }
 
 .banner__pluses {
+  max-width: 40.3rem;
+
   margin-top: 2rem;
 }
 
 .banner__img {
   width: 32.5rem;
+  max-width: 43%;
+  transform: translateY(-3.2rem);
 
   object-fit: contain;
 }
@@ -32,4 +42,62 @@
   height: 3.75rem;
 
   margin-top: 1.43rem;
+}
+.banner__title-br-mob {
+  display: none;
+}
+@media screen and (max-width: 1150px) {
+  .banner__img {
+    max-width: 50%;
+  }
+  .banner__wrapper {
+    position: relative;
+  }
+  .banner__pluses {
+    padding: 1.5rem 1rem 0 0;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .banner__img {
+    max-width: 32.5rem;
+    width: 100%;
+    
+    opacity: 0.6;
+    transform: translateY(-50%);
+    
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    right: 0;
+  }
+  .banner__box {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .banner__pluses {
+    max-width: 100%;
+    background-color: rgba(255,255,255,0.7);
+  }
+}
+@media screen and (max-width: 800px) {
+  .banner {
+    margin-top: 6.75rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .banner {
+    margin-top: 4.75rem;
+  }
+  .banner__title {
+    max-width: 28rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .banner__title-br-mob {
+    display: block;
+  }
 }
