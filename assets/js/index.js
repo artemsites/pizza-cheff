@@ -12,15 +12,17 @@ document.addEventListener('DOMContentLoaded', function () {
     let links = document.querySelectorAll('a');
 
     links.forEach(function(link) {
-      link.addEventListener("click",function(e) {
-        e.preventDefault();
-        new scrollSmoothlyToPosition({
-          selectorTarget: link.hash,
-          marginTop: 50,// в "px"
-          // или в "rem"
-          // marginTop: "10rem",// необходимо чтобы у html (:root) был установлен font-size
+      if (link.hash!=='') {
+        link.addEventListener("click",function(e) {
+          e.preventDefault();
+          new scrollSmoothlyToPosition({
+            selectorTarget: link.hash,
+            marginTop: 50,// в "px"
+            // или в "rem"
+            // marginTop: "10rem",// необходимо чтобы у html (:root) был установлен font-size
+          });
         });
-      });
+      }
     });
 
   } catch (err) {
