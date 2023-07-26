@@ -18,3 +18,5 @@
 @import '_nav.css';
 @import '_btn.css';
 @import '_form.css';
+
+@import './libs/animate.min.css';

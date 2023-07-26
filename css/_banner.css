@@ -32,7 +32,7 @@
 .banner__img {
   width: 32.5rem;
   max-width: 43%;
-  transform: translateY(-3.2rem);
+  margin-top: -3.2rem;
 
   object-fit: contain;
 }
@@ -65,11 +65,12 @@
     width: 100%;
     
     opacity: 0.6;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     
+    margin-top: 0;
     position: absolute;
     z-index: -1;
-    top: 50%;
+    top: 17%;
     right: 0;
   }
   .banner__box {
@@ -79,8 +80,12 @@
 
   .banner__pluses {
     max-width: 100%;
+  }
+
+  .banner__wrapper {
     background-color: rgba(255,255,255,0.7);
   }
+  
 }
 @media screen and (max-width: 800px) {
   .banner {

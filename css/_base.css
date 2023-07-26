@@ -24,7 +24,9 @@
     font-size: 4vw;
   }
 }
-
+body {
+  overflow-x: hidden;
+}
 button {
   border: none;
   cursor: pointer;
