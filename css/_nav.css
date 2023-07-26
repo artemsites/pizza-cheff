@@ -31,13 +31,13 @@
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 730px) {
   .nav__link {
     margin-right: 1rem;
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 680px) {
   .nav {
     display: flex;
     flex-direction: column;

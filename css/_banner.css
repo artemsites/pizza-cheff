@@ -1,0 +1,35 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 8.75rem;
+}
+
+.banner__title {
+  color: var(--color-3);
+  font-size: 2.81rem;
+  line-height: 3.437rem;
+  font-weight: 800;
+  font-family: "Muller";
+}
+
+.banner__subtitle {
+  color: var(--color-4);
+}
+
+.banner__pluses {
+  margin-top: 2rem;
+}
+
+.banner__img {
+  width: 32.5rem;
+
+  object-fit: contain;
+}
+
+.banner__btn {
+  width: 14rem;
+  height: 3.75rem;
+
+  margin-top: 1.43rem;
+}

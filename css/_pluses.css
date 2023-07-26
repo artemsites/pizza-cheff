@@ -1,0 +1,43 @@
+.pluses {
+  max-width: 39.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pluses__item {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 2.3rem;
+}
+
+.pluses__item-img {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.pluses__item-box {
+  width: 100%;
+  max-width: 13.5rem;
+
+  margin-left: 1rem;
+}
+
+.pluses__item-title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: var(--color-5);
+  font-weight: 800;
+  font-family: "Muller";
+}
+
+.pluses__item-text {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: var(--color-3);
+  font-family: "Muller";
+  font-weight: normal;
+}

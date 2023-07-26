@@ -6,13 +6,15 @@
 
   text-decoration: none;
 }
+
 .logo__img {
   width: auto;
   height: 100%;
   object-fit: contain;
 }
+
 .logo__name {
-  max-width: 5.5rem;
+  max-width: 5.2rem;
   height: 100%;
 
   display: inline-flex;
@@ -21,9 +23,9 @@
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  color: var(--color-accent);
+  color: var(--color-1);
   font-weight: 900;
-  font-family: var(--font-2);
+  font-family: var(--font);
   line-height: 1.7rem;
 
   margin-left: 0.56rem;
