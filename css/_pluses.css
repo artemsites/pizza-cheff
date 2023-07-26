@@ -36,13 +36,13 @@
   text-transform: uppercase;
   color: var(--color-5);
   font-weight: 800;
-  font-family: "Muller";
+  /* font-family: "Muller"; */
 }
 
 .pluses__item-text {
   font-size: 1rem;
   line-height: 1rem;
   color: var(--color-3);
-  font-family: "Muller";
+  /* font-family: "Muller"; */
   font-weight: normal;
 }

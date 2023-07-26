@@ -13,8 +13,10 @@
   --color-4: #f6af47;
   --color-5: #ffaf18;
   --color-6: #382400;
+  --color-7: #181a1a;
   --font: "Muller";
   --box-shadow: 0px 3px 7.5px rgba(152,152,152,0.2);
+  font-family: var(--font);
 }
 @media screen and (max-width: 400px) {
   :root {

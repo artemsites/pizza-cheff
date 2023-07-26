@@ -1,10 +1,9 @@
 .btn {
   background-color: var(--color-5);
   font-size: 1rem;
-  line-height: 3.43rem;
   color: var(--color-6);
   font-weight: bold;
-  font-family: "Muller";
+  /* font-family: "Muller"; */
   font-weight: bold;
   border: 0.1rem solid var(--color-5);
 
