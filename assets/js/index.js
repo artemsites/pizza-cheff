@@ -2,6 +2,8 @@ import './_nav.js';
 
 import './_form.js';
 
+import './_call-action.js';
+
 import './libs/fslightbox.js';
 
 import {scrollSmoothlyToPosition} from './libs/scrollSmoothlyToPosition.js';
