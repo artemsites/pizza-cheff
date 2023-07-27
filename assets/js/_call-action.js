@@ -15,13 +15,13 @@ document.addEventListener('DOMContentLoaded', function () {
       if (isMaxWidth(610)) {
         moveElemTo({
           elem: '.call-action__form',
-          to: '.call-action__teleport-form-mob',
+          to: '.call-action__form-mob-teleport',
           where: 'append',//append, prepend, before, after
         });
       } else {
         moveElemTo({
           elem: '.call-action__form',
-          to: '.call-action__teleport-form-pc',
+          to: '.call-action__form-pc-teleport',
           where: 'append',//append, prepend, before, after
         });
       }

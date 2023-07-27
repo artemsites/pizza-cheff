@@ -38,7 +38,7 @@
 }
 
 /* .call-action__form, */
-.call-action__teleport-form-pc {
+.call-action__form-pc-teleport {
   width: 18.75rem;
 
   margin-right: auto;
@@ -47,7 +47,7 @@
 
 .call-action__decor {
   width: 25.1rem;
-  
+
   position: absolute;
   right: -7.2rem;
   z-index: -1;
@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 880px) {
   /* .call-action__form, */
-  .call-action__teleport-form-pc {
+  .call-action__form-pc-teleport {
     margin-right: 0;
     margin-left: auto;
   }
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 770px) {
   /* .call-action__form, */
-  .call-action__teleport-form-pc {
+  .call-action__form-pc-teleport {
     margin-left: 1.5rem;
   }
 }
@@ -84,7 +84,7 @@
   .call-action__teleport-form {
     height: 19.5rem;
   }
-  .call-action__teleport-form-mob {
+  .call-action__form-mob-teleport {
     margin-top: 2rem;
   }
   .call-action__text {
