@@ -71,3 +71,21 @@
 
   margin-top: auto;
 }
+
+@media screen and (max-width: 1050px) {
+  .products__item {
+    width: calc(33.3334% - 1rem);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .products__item {
+    width: calc(50% - .75rem);
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .products__item {
+    width: 100%;
+  }
+}
