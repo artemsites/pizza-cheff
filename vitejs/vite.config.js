@@ -9,7 +9,8 @@ export default {
   // Сделать пути относительными https://vitejs.dev/config/shared-options.html#base
   base: './',
   
-  // build: {
+  build: {
+    assetsInlineLimit:0,
   //   rollupOptions: {
   //     input: {
   //       index: resolve(__dirname, "index.html"),
@@ -29,15 +30,15 @@ export default {
   //       productsTables4: resolve(__dirname, "products/tables/profi.html"),
   //     },
   //   },
-  // },
+  },
 
   plugins: [
     legacy({
       targets: [
         "last 5 versions and not dead",
-        "> 0.2%",
+        "> 0.25%",
         "Firefox ESR",
-        "IE 11",
+        // "IE 11",
       ],
       // polyfills: ['es.promise.finally', 'es/map', 'es/set'],
       // modernPolyfills: ['es.promise.finally'],
