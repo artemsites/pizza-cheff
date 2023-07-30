@@ -6,6 +6,9 @@ import { resolve } from "path";
 // https://vitejs.dev/config/
 
 export default {
+  // Сделать пути относительными https://vitejs.dev/config/shared-options.html#base
+  base: './',
+  
   // build: {
   //   rollupOptions: {
   //     input: {
