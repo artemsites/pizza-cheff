@@ -15,7 +15,7 @@
 
 .pluses__item-img {
   width: 3.75rem;
-  height: 3.75rem;
+  height: auto;
 }
 
 .pluses__item-box {
