@@ -11,6 +11,8 @@ import {scrollSmoothlyToPosition} from './libs/scrollSmoothlyToPosition.js';
 document.addEventListener('DOMContentLoaded', function () {
   try {
 
+
+
     let links = document.querySelectorAll('a');
 
     links.forEach(function(link) {

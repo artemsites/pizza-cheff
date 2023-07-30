@@ -1,5 +1,4 @@
 .pluses {
-
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -15,7 +14,7 @@
 
 .pluses__item-img {
   width: 3.75rem;
-  height: 3.75rem;
+  height: auto;
 }
 
 .pluses__item-box {
@@ -24,6 +23,7 @@
 
   margin-left: 1rem;
 }
+
 @media screen and (max-width: 1150px) {
   .pluses__item-box {
     max-width: 20rem;
