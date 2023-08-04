@@ -1,0 +1,32 @@
+.header {
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 15.3rem;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 980px) {
+  .header__nav {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header__nav {
+    margin-right: 0;
+  }
+}

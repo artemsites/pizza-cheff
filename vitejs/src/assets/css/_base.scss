@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Это железное число его менять нельзя, иначе размеры будут не по дизайну */
+  font-size: 16px;
+  --color-1: #ffc468;
+  --color-2: #a46b00;
+  --color-3: #b99150;
+  --color-4: #f6af47;
+  --color-5: #ffaf18;
+  --color-6: #382400;
+  --color-7: #181a1a;
+  --color-8: #cba86e;
+  --font: "Muller";
+  --box-shadow: 0px 3px 7.5px rgba(152,152,152,0.2);
+  font-family: var(--font);
+}
+@media screen and (max-width: 400px) {
+  :root {
+    font-size: 4vw;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
