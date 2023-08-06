@@ -1,7 +1,3 @@
 .vscode
 NOTES.md
-wp/wp-admin
-wp/wp-content/languages
-wp/wp-content/plugins
-wp/wp-includes
-wp/wp-content/themes/.trash
+wp
